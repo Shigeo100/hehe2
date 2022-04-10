@@ -1,0 +1,225 @@
+/* * { */
+    /* зразу весь текст  */
+    /* padding: 0;
+    margin: 0;
+} */
+
+body {
+    /* цвет заднего фона */
+    background-color: #f1f1f1;
+    /* цвет всего текста */
+    color:#0f141e;     
+    /* размер всего текста */           
+    font-size: 16;        
+    /* жирность всего текста */        
+    font-weight: normal;    
+    /* стиль текста */      
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    /* цвет всех ссылок */
+    color: black; 
+    /* убирает стандартное подчеркиавние */
+    text-decoration: none;
+}
+a:hover {
+    /* hover - это наведение на обьект */
+    text-decoration: underline;
+}
+
+a:visited {
+    /* индикатор ссылки которую уже нажимали */
+    color: gray;
+}
+
+a:active {
+    color: blue;
+}
+/* есть class .    и    есть   id #   */
+.shigeo {
+    width:  100px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+/* тут управлаем тегом div с присвоеным класом  info 
+контролируем все что внутри него */
+.info p {
+
+    /* задаем цвет шрифта в блоке .info */
+    color: #646474;
+
+    /* задаем растояние между строками в блоке .info */
+    margin: 0;
+    
+    /* стиль текста */
+    font-style: italic;
+
+    /* задаем жирный шрифт */
+    font-weight: bold;
+
+    /* линия под текстом */
+    /* text-decoration: underline; */
+
+    /* перечеркнутый текст */
+    /* text-decoration: line-through; */
+
+    /* делает текст капсом */
+    /* text-transform: uppercase; */
+
+    /* зазор между буквами  */
+    letter-spacing: 3px;
+
+    /* зазор  между словами   */
+    word-spacing: 20px;
+
+}
+
+/* tyt y  nego  BOX MODEL */
+
+
+
+.container {
+/* задает размер всем блокам  можно в пикселяк и в % */
+    /* width: 300px; */
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+/* .social { */
+
+    /* background: rgb(124, 122, 122); */
+    /* размер шрифта в блоке */
+    /* font-size: 23; */
+     /* внутриние отступы */
+    /* padding: 15px; */
+    /* padding: 15px 40px; */
+    /* padding: 15px 20px 25px 30px; */
+    /* padding-top: ; */
+    /* padding-right: ; */
+    /* padding-bottom: ; */
+    /* padding-left: ; */
+
+    /* рамка вокруг блока */
+    /* border: 2px solid black; */
+
+    /* нижняя  полоска рамки штрих-пунтир */
+    /* border-bottom-style: dotted;
+
+    border-top-width: 10px;
+
+    border-right-color: blue; */
+
+    /* внешний отступ */
+    /* margin: 5px; */
+/* } */
+
+/* .box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red; 
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td  {
+    padding-bottom:10;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: gray;
+    font-weight: bold;
+}
+
+.table td:nth-child(1) {
+    font-weight: bold;
+    font-size: 17;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+
+.form-group {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
